@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--ifRoom表示只要畫面有空間就顯示-->
+    <item
+       android:title="搜尋文章"
+       android:icon="@drawable/ic_baseline_search_24"
+       android:id="@+id/search"
+       app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+
+    />
+    <item
+        android:id="@+id/homeItem"
+        android:title="恢復首頁" />
+    <item
+        android:id="@+id/reportItem"
+        android:title="問題回報" />
+    <item
+        android:id="@+id/aboutItem"
+        android:title="關於作者" />
+</menu>
